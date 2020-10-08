@@ -9,7 +9,7 @@ import userRoutes from "./routes/user";
 const app = express();
 
 connect(
-    "mongodb+srv://sandy2221:68d0SdYbcBxImo9V@cluster0.vfnh3.mongodb.net/node-angular?retryWrites=true&w=majority"
+    "mongodb+srv://sandy2221:<password>@cluster0.vfnh3.mongodb.net/<databaseName>?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to database!");
